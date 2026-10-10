@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nowistay": {
+      "type": "http",
+      "url": "https://api.nowistay.com/mcp"
+    }
+  }
+}

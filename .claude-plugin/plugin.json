@@ -1,0 +1,21 @@
+{
+  "name": "nowistay",
+  "displayName": "Nowistay",
+  "version": "1.0.0",
+  "description": "Run your vacation rental business from Claude: check bookings, availability, prices, guest messages, cleaning missions, welcome guides, and property knowledge in Nowistay, then apply the changes you approve.",
+  "author": {
+    "name": "Nowistay",
+    "url": "https://www.nowistay.com"
+  },
+  "homepage": "https://www.nowistay.com",
+  "repository": "https://github.com/Nowistay/claude",
+  "license": "MIT",
+  "keywords": [
+    "vacation-rental",
+    "short-term-rental",
+    "property-management",
+    "bookings",
+    "guest-messaging",
+    "hospitality"
+  ]
+}

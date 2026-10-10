@@ -9,6 +9,10 @@
   },
   "homepage": "https://www.nowistay.com",
   "repository": "https://github.com/Nowistay/claude",
+  "documentationUrl": "https://www.nowistay.com/help/how-to-connect-chatgpt-claude-to-nowistay-mcp",
+  "supportUrl": "https://www.nowistay.com/contact-us",
+  "privacyPolicyUrl": "https://www.nowistay.com/privacy",
+  "termsOfServiceUrl": "https://www.nowistay.com/terms-of-use",
   "license": "MIT",
   "keywords": [
     "vacation-rental",

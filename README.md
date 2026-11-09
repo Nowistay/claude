@@ -1,5 +1,7 @@
 # Nowistay
 
+[Website](https://www.nowistay.com) · [Claude directory listing](https://claude.ai/directory/connectors/nowistay) · [Setup guide](https://www.nowistay.com/help/how-to-connect-chatgpt-claude-to-nowistay-mcp) · [Pricing](https://www.nowistay.com/pricing)
+
 Run your vacation rental business from a conversation with Claude. The Nowistay plugin connects Claude to your [Nowistay](https://www.nowistay.com) account so you can check bookings, availability and prices, read and answer guest messages, plan cleaning and maintenance missions, edit welcome guides, and maintain the private knowledge your AI co-host uses, without switching tools.
 
 ## What you can ask

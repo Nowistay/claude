@@ -2,13 +2,14 @@
 
 [Website](https://www.nowistay.com) · [Claude directory listing](https://claude.ai/directory/connectors/nowistay) · [Setup guide](https://www.nowistay.com/help/how-to-connect-chatgpt-claude-to-nowistay-mcp) · [Pricing](https://www.nowistay.com/pricing)
 
-Run your vacation rental business from a conversation with Claude. The Nowistay plugin connects Claude to your [Nowistay](https://www.nowistay.com) account so you can check bookings, availability and prices, read and answer guest messages, plan cleaning and maintenance missions, edit welcome guides, and maintain the private knowledge your AI co-host uses, without switching tools.
+Run your vacation rental business from a conversation with Claude. The Nowistay plugin connects Claude to your [Nowistay](https://www.nowistay.com) account so you can check bookings, availability and prices, read and answer guest messages, check your review score and reply to guest reviews, plan cleaning and maintenance missions, edit welcome guides, and maintain the private knowledge your AI co-host uses, without switching tools.
 
 ## What you can ask
 
 - "What needs my attention today across my properties?"
 - "Raise the nightly rate by 10% on Fridays and Saturdays in July for The Beauty Villa."
 - "Show me the last messages from the guest arriving tomorrow and draft a reply."
+- "What is my review score on the studio, and which reviews still need an answer?"
 - "Create a direct booking for 12 to 15 August and send a payment link."
 - "Who is assigned to next week's cleanings?"
 - "Update the Wi-Fi password in the welcome guide."
@@ -22,6 +23,7 @@ Run your vacation rental business from a conversation with Claude. The Nowistay 
 | `calendar-revenue` | Review and update availability, nightly rates, stay rules and restrictions |
 | `direct-bookings` | Create or update direct bookings, with optional payment links |
 | `guest-messaging` | Find conversations, summarize them, draft and send replies |
+| `guest-reviews` | Review score, recent guest reviews, public replies and listing links |
 | `guest-records` | Find returning guests and add guests to your customer base |
 | `team-operations` | Plan, assign and follow up cleaning, maintenance and custom missions |
 | `welcome-guide` | Create and edit welcome guide pages, translations and images |
@@ -49,7 +51,7 @@ Every change goes through two steps. Claude first stages the change with a previ
 
 The plugin itself contains only instructions (skills) and a reference to the Nowistay MCP server at `https://api.nowistay.com/mcp`. It runs no local code and stores nothing on your machine.
 
-When you use it, Claude sends your requests to that server over HTTPS using an OAuth token scoped to your Nowistay account. The server returns property, calendar, booking, mission, guest, message, welcome guide and knowledge base data for your eligible properties only. Guest contact details and private notes are omitted by default and returned only when you explicitly ask for them. Nowistay does not send your data to any other destination through this plugin.
+When you use it, Claude sends your requests to that server over HTTPS using an OAuth token scoped to your Nowistay account. The server returns property, calendar, booking, mission, guest, message, review, welcome guide and knowledge base data for your eligible properties only. Guest contact details and private notes are omitted by default and returned only when you explicitly ask for them. Nowistay does not send your data to any other destination through this plugin.
 
 See the [Nowistay privacy policy](https://www.nowistay.com/privacy) and [terms of use](https://www.nowistay.com/terms-of-use).
 
